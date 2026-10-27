@@ -1,0 +1,39 @@
+{
+  "name": "playwright-automation-exercise-framework",
+  "version": "1.0.0",
+  "description": "Production-Ready Playwright Test Automation Framework (TypeScript, POM, Multi-Browser, Cloudflare Bypass, REST API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:e2e": "playwright test tests/e2e",
+    "test:auth": "playwright test tests/auth",
+    "test:products": "playwright test tests/products",
+    "test:contact": "playwright test tests/contact",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "sdet",
+    "page-object-model",
+    "cross-browser",
+    "api-testing",
+    "e2e-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "playwright": "^1.64.1",
+    "typescript": "^7.0.2"
+  }
+}
